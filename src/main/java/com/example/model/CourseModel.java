@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class StudentModel
+public class CourseModel 
 {
-    private String npm;
+	private String id_course;
     private String name;
-    private double gpa;
-    private List<CourseModel> courses;
+    private Integer credits;
+    private List<StudentModel> students;
 }
